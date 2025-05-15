@@ -1,0 +1,59 @@
+@font-face {
+    font-family: armalite;
+    src: url(../armalite_rifle.ttf);
+}
+
+*{
+    margin: 0;  
+    padding: 0;
+}
+
+header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 30px 10%;
+background-color: darkgoldenrod;
+}
+body{
+background-color: gray;
+font-weight: 100;
+font-family: armalite;
+}
+.logo{
+height: 80px ;
+width: 160px;
+
+}
+
+.nav-l{
+list-style: none;
+
+}
+.nav-l li { 
+display: inline-block;
+padding: 0px 20px;
+}
+
+.nav-l li a{
+transition: all 0.3s ease 0s;
+text-decoration: none;
+color: black;
+font-size: large;
+}
+
+.nav-l li a:hover {
+    animation: forwards;
+    color: brown;
+    font-size: larger;
+} 
+
+h1{
+    margin-right: 50%;
+    padding: 20px 1%;
+}
+
+img{
+margin-left: 70%;
+
+}
